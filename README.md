@@ -10,6 +10,8 @@ Access the frontend from `/*` and access the backend from `/api/*` on the same d
 
 **Backend - Go Mux:** https://mysite.up.railway.app/api/
 
+keep the /api in the domain
+
 The proxy configurations are done in the [`Caddyfile`](https://github.com/brody192/reverse-proxy/blob/main/Caddyfile) everything is commented for your ease of use!
 
 When deploying your Reverse Proxy service it will require you to set four service variables: **FRONTEND_DOMAIN** / **FRONTEND_PORT** and **BACKEND_DOMAIN** / **BACKEND_PORT**
